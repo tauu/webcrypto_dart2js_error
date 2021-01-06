@@ -36,6 +36,12 @@ dev_dependencies:
   integration_test:
     sdk: flutter
 
+dependency_overrides:
+  webcrypto:
+    git:
+      url: https://github.com/tauu/webcrypto.dart
+      ref: dart2js-cryptokey-fix
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
